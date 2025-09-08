@@ -38,13 +38,15 @@ export default function ProjectCard(props: ProjectCardProps) {
           <p className="text-xs md:text-sm">{props.description}</p>
         </div>
         <div className="mt-6 flex items-center justify-end gap-6">
-          <a
-            href={props.sourceCodeHref}
-            target="_blank"
-            className="flex items-center gap-1 text-xs underline md:text-sm"
-          >
-            <GithubIcon className="h-5 w-5" /> Source code
-          </a>
+          {props.sourceCodeHref && (
+            <a
+              href={props.sourceCodeHref}
+              target="_blank"
+              className="flex items-center gap-1 text-xs underline md:text-sm"
+            >
+              <GithubIcon className="h-5 w-5" /> Source code
+            </a>
+          )}
           {props.liveWebsiteHref && (
             <a
               href={props.liveWebsiteHref}

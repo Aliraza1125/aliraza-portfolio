@@ -9,6 +9,7 @@ export type ProjectShowcaseListItem = {
   title: string;
   href: string;
   tags: string[];
+  description: string;
   image: {
     LIGHT: string;
     DARK?: string;
@@ -42,7 +43,7 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
         {props.data.index + 1}.
       </span>
       <div className="flex flex-col gap-2">
-        <Link href={props.data.href} className="relative max-w-max">
+        <Link href={props.data.href} target="_blank" rel="noopener noreferrer" className="relative max-w-max">
           <span
             className={classNames(
               "hidden text-6xl font-semibold transition-colors duration-300 lg:block",
@@ -63,6 +64,9 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
             )}
           ></span>
         </Link>
+        <p className="max-w-xl text-sm text-muted-foreground/80 sm:text-base">
+          {props.data.description}
+        </p>
         <p className="max-w-xl text-base font-semibold text-muted-foreground sm:text-lg">
           {props.data.tags.map((tag) => `#${tag} `)}
         </p>

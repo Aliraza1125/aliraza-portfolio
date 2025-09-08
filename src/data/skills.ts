@@ -4,6 +4,22 @@ import {
   SiPrisma,
   SiNextdotjs,
   SiFlask,
+  SiBootstrap,
+  SiVuedotjs,
+  SiMysql,
+  SiFlutter,
+  SiDart,
+  SiFirebase,
+  SiVercel,
+  SiNetlify,
+  SiHeroku,
+  SiLinux,
+  SiMicrosoftazure,
+  SiGithubactions,
+  SiCplusplus,
+  SiNestjs,
+  SiJsonwebtokens,
+  SiAuth0,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -22,7 +38,6 @@ import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -46,11 +61,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Languages",
     skills: [
       {
-        name: "HTML",
+        name: "HTML5",
         icon: HtmlSvg,
       },
       {
-        name: "CSS",
+        name: "CSS3",
         icon: CsssSvg,
       },
       {
@@ -58,7 +73,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SassSvg,
       },
       {
-        name: "Javascript",
+        name: "Javascript ES6+",
         icon: JavascriptSvg,
       },
       {
@@ -69,10 +84,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Python",
         icon: PythonSvg,
       },
+      {
+        name: "C++",
+        icon: SiCplusplus,
+      },
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Frontend Libraries & Frameworks",
     skills: [
       {
         name: "Reactjs",
@@ -83,8 +102,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
+        name: "Vue.js",
+        icon: SiVuedotjs,
       },
       {
         name: "React Router Dom",
@@ -97,6 +116,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Tailwindcss",
         icon: TailwindcssSvg,
+      },
+      {
+        name: "Bootstrap",
+        icon: SiBootstrap,
       },
       {
         name: "MUI",
@@ -128,12 +151,41 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiExpress,
       },
       {
+        name: "NestJS",
+        icon: SiNestjs,
+      },
+      {
         name: "Socket.io",
         icon: SiSocketdotio,
       },
       {
         name: "Flask",
         icon: SiFlask,
+      },
+    ],
+  },
+  {
+    sectionName: "Authentication & Security",
+    skills: [
+      {
+        name: "JWT",
+        icon: SiJsonwebtokens,
+      },
+      {
+        name: "Auth0",
+        icon: SiAuth0,
+      },
+      {
+        name: "Firebase Auth",
+        icon: SiFirebase,
+      },
+      {
+        name: "Passport.js",
+        icon: SiNextdotjs,
+      },
+      {
+        name: "NextAuth.js",
+        icon: SiNextdotjs,
       },
     ],
   },
@@ -151,6 +203,56 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Prisma",
         icon: SiPrisma,
+      },
+      {
+        name: "MySQL",
+        icon: SiMysql,
+      },
+    ],
+  },
+  {
+    sectionName: "Mobile Application Development",
+    skills: [
+      {
+        name: "Flutter",
+        icon: SiFlutter,
+      },
+      {
+        name: "Dart",
+        icon: SiDart,
+      },
+      {
+        name: "Firebase",
+        icon: SiFirebase,
+      },
+    ],
+  },
+  {
+    sectionName: "Hosting & Deployment",
+    skills: [
+      {
+        name: "Vercel",
+        icon: SiVercel,
+      },
+      {
+        name: "Netlify",
+        icon: SiNetlify,
+      },
+      {
+        name: "Heroku",
+        icon: SiHeroku,
+      },
+      {
+        name: "VPS",
+        icon: SiLinux,
+      },
+      {
+        name: "Microsoft Azure",
+        icon: SiMicrosoftazure,
+      },
+      {
+        name: "GitHub Actions",
+        icon: SiGithubactions,
       },
     ],
   },

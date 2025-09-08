@@ -39,23 +39,31 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Amit Chauhan
+                Ali Raza
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 Software Developer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
-              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I am a software developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
-                <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl text-justify">
+              
+                Hello! I'm a Software Developer and Experienced{" "}
+                <span className="font-semibold text-accent">MERN Developer</span>{" "}
+                with a proven track record of 4+ years in designing and developing{" "}
+                <span className="font-semibold text-accent">high-performance, user-focused web applications</span>.
+                Specializing in{" "}
+                <span className="font-semibold text-accent">MERN Stack</span>{" "}
+                (MongoDB, Express.js/Nest.js, React.js, Next.js and Node.js), I bring expertise in
+                crafting user-centric interfaces and scalable back-end solutions with{" "}
+                <span className="font-semibold text-accent">AI integrations</span>. 
+                <br />
+                Additionally, I am proficient in{" "}
+                <span className="font-semibold text-accent">JavaScript ES6+</span>,{" "}
+                <span className="font-semibold text-accent">HTML5</span>,{" "}
+                <span className="font-semibold text-accent">CSS3</span>,{" "}
+                <span className="font-semibold text-accent">Flutter</span>, and{" "}
+                <span className="font-semibold text-accent">Python</span>.
               </div>
             </FadeUp>
           </AnimatePresence>

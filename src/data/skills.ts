@@ -1,47 +1,62 @@
 import {
   SiExpress,
+  SiNestjs,
+  SiFastapi,
+  SiFlask,
   SiSocketdotio,
   SiPrisma,
+  SiMongoose,
   SiNextdotjs,
-  SiFlask,
+  SiReactquery,
   SiBootstrap,
-  SiVuedotjs,
   SiMysql,
+  SiRedis,
+  SiSupabase,
+  SiFirebase,
+  SiOpenai,
+  SiChatbot,
+  SiStripe,
   SiFlutter,
   SiDart,
-  SiFirebase,
   SiVercel,
   SiNetlify,
-  SiHeroku,
+  SiRender,
   SiLinux,
-  SiMicrosoftazure,
+  SiNginx,
+  SiPm2,
   SiGithubactions,
-  SiCplusplus,
-  SiNestjs,
+  SiGithub,
+  SiGitlab,
+  SiBitbucket,
+  SiSwagger,
+  SiFigma,
+  SiJira,
+  SiTrello,
+  SiSlack,
   SiJsonwebtokens,
   SiAuth0,
 } from "react-icons/si";
 import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
+  ShadcnUiIcon,
+  DrizzleOrmIcon,
+  ClaudeAiIcon,
+  RagIcon,
+  RestApiIcon,
+  ApiIntegrationIcon,
 } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -58,8 +73,44 @@ import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "Frontend",
     skills: [
+      {
+        name: "React.js",
+        icon: ReactjsSvg,
+      },
+      {
+        name: "Next.js",
+        icon: SiNextdotjs,
+      },
+      {
+        name: "TypeScript",
+        icon: TypescriptSvg,
+      },
+      {
+        name: "JavaScript",
+        icon: JavascriptSvg,
+      },
+      {
+        name: "Redux Toolkit",
+        icon: ReduxSvg,
+      },
+      {
+        name: "React Query",
+        icon: SiReactquery,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: TailwindcssSvg,
+      },
+      {
+        name: "Material UI",
+        icon: MuiSvg,
+      },
+      {
+        name: "Shadcn UI",
+        icon: ShadcnUiIcon,
+      },
       {
         name: "HTML5",
         icon: HtmlSvg,
@@ -69,73 +120,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CsssSvg,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
-        name: "Javascript ES6+",
-        icon: JavascriptSvg,
-      },
-      {
-        name: "Typescript",
-        icon: TypescriptSvg,
-      },
-      {
-        name: "Python",
-        icon: PythonSvg,
-      },
-      {
-        name: "C++",
-        icon: SiCplusplus,
-      },
-    ],
-  },
-  {
-    sectionName: "Frontend Libraries & Frameworks",
-    skills: [
-      {
-        name: "Reactjs",
-        icon: ReactjsSvg,
-      },
-      {
-        name: "Nextjs",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "Vue.js",
-        icon: SiVuedotjs,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-      {
         name: "Bootstrap",
         icon: SiBootstrap,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
       },
     ],
   },
@@ -143,11 +129,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Backend",
     skills: [
       {
-        name: "Nodejs",
+        name: "Node.js",
         icon: NodejsSvg,
       },
       {
-        name: "Express",
+        name: "Express.js",
         icon: SiExpress,
       },
       {
@@ -155,63 +141,152 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNestjs,
       },
       {
-        name: "Socket.io",
-        icon: SiSocketdotio,
+        name: "FastAPI",
+        icon: SiFastapi,
       },
       {
         name: "Flask",
         icon: SiFlask,
       },
-    ],
-  },
-  {
-    sectionName: "Authentication & Security",
-    skills: [
+      {
+        name: "REST API",
+        icon: RestApiIcon,
+      },
       {
         name: "JWT",
         icon: SiJsonwebtokens,
       },
       {
-        name: "Auth0",
+        name: "OAuth",
         icon: SiAuth0,
       },
       {
-        name: "Firebase Auth",
-        icon: SiFirebase,
-      },
-      {
-        name: "Passport.js",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "NextAuth.js",
-        icon: SiNextdotjs,
-      },
-    ],
-  },
-  {
-    sectionName: "Databases and ORMs",
-    skills: [
-      {
-        name: "MongoDB",
-        icon: MongoDBSvg,
-      },
-      {
-        name: "Postgress",
-        icon: PostgressSvg,
+        name: "WebSockets",
+        icon: SiSocketdotio,
       },
       {
         name: "Prisma",
         icon: SiPrisma,
       },
       {
-        name: "MySQL",
-        icon: SiMysql,
+        name: "Drizzle ORM",
+        icon: DrizzleOrmIcon,
+      },
+      {
+        name: "Mongoose",
+        icon: SiMongoose,
       },
     ],
   },
   {
-    sectionName: "Mobile Application Development",
+    sectionName: "Databases",
+    skills: [
+      {
+        name: "MongoDB",
+        icon: MongoDBSvg,
+      },
+      {
+        name: "PostgreSQL",
+        icon: PostgressSvg,
+      },
+      {
+        name: "MySQL",
+        icon: SiMysql,
+      },
+      {
+        name: "Redis",
+        icon: SiRedis,
+      },
+      {
+        name: "Supabase",
+        icon: SiSupabase,
+      },
+      {
+        name: "Firebase Firestore",
+        icon: SiFirebase,
+      },
+    ],
+  },
+  {
+    sectionName: "AI & Integrations",
+    skills: [
+      {
+        name: "OpenAI API",
+        icon: SiOpenai,
+      },
+      {
+        name: "Claude API",
+        icon: ClaudeAiIcon,
+      },
+      {
+        name: "AI Chatbots",
+        icon: SiChatbot,
+      },
+      {
+        name: "RAG",
+        icon: RagIcon,
+      },
+      {
+        name: "Stripe",
+        icon: SiStripe,
+      },
+      {
+        name: "Firebase",
+        icon: SiFirebase,
+      },
+      {
+        name: "REST APIs",
+        icon: RestApiIcon,
+      },
+      {
+        name: "Third-party API Integration",
+        icon: ApiIntegrationIcon,
+      },
+    ],
+  },
+  {
+    sectionName: "DevOps & Cloud",
+    skills: [
+      {
+        name: "Docker",
+        icon: DockerSvg,
+      },
+      {
+        name: "AWS",
+        icon: AwsSvg,
+      },
+      {
+        name: "Vercel",
+        icon: SiVercel,
+      },
+      {
+        name: "Netlify",
+        icon: SiNetlify,
+      },
+      {
+        name: "Render",
+        icon: SiRender,
+      },
+      {
+        name: "VPS",
+        icon: SiLinux,
+      },
+      {
+        name: "Nginx",
+        icon: SiNginx,
+      },
+      {
+        name: "PM2",
+        icon: SiPm2,
+      },
+      {
+        name: "GitHub Actions",
+        icon: SiGithubactions,
+      },
+    ],
+  },
+  {
+    sectionName: "Mobile",
     skills: [
       {
         name: "Flutter",
@@ -228,52 +303,47 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Hosting & Deployment",
-    skills: [
-      {
-        name: "Vercel",
-        icon: SiVercel,
-      },
-      {
-        name: "Netlify",
-        icon: SiNetlify,
-      },
-      {
-        name: "Heroku",
-        icon: SiHeroku,
-      },
-      {
-        name: "VPS",
-        icon: SiLinux,
-      },
-      {
-        name: "Microsoft Azure",
-        icon: SiMicrosoftazure,
-      },
-      {
-        name: "GitHub Actions",
-        icon: SiGithubactions,
-      },
-    ],
-  },
-  {
-    sectionName: "Tools and Technologies",
+    sectionName: "Tools",
     skills: [
       {
         name: "Git",
         icon: GitSvg,
       },
       {
-        name: "Docker",
-        icon: DockerSvg,
+        name: "GitHub",
+        icon: SiGithub,
       },
       {
-        name: "AWS",
-        icon: AwsSvg,
+        name: "GitLab",
+        icon: SiGitlab,
+      },
+      {
+        name: "Bitbucket",
+        icon: SiBitbucket,
       },
       {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "Swagger",
+        icon: SiSwagger,
+      },
+      {
+        name: "Figma",
+        icon: SiFigma,
+      },
+      {
+        name: "Jira",
+        icon: SiJira,
+      },
+      {
+        name: "Trello",
+        icon: SiTrello,
+      },
+      {
+        name: "Slack",
+        icon: SiSlack,
       },
     ],
   },

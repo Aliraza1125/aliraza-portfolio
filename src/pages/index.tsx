@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Ali Raza | Software Developer"
-        description="Explore the professional portfolio of Ali Raza, a skilled Software Developer with 4+ years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Ali Raza | Senior Software Engineer"
+        description="Explore the professional portfolio of Ali Raza, a Senior Software Engineer with 5+ years of experience in Full-Stack JavaScript development. Discover SaaS platforms, AI applications, and enterprise software built with React.js, Next.js, Node.js, NestJS, and TypeScript."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Ali Raza - Software Developer",
+          title: "Ali Raza - Senior Software Engineer",
           description:
-            "Dive into the world of web development with Ali Raza. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of full-stack development with Ali Raza, a Senior Software Engineer with 5+ years of experience building scalable SaaS platforms, AI applications, dashboards, and e-commerce solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -37,7 +37,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Software Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Senior Software Engineer, Full Stack Developer, MERN Stack Developer, React Developer, Next.js Developer, Node.js Developer, NestJS, TypeScript, MongoDB, PostgreSQL, SaaS Development, AI Integration, OpenAI, Claude AI, Stripe, Portfolio",
           },
         ]}
       />

@@ -2,24 +2,48 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Full Stack Developer",
+    title: "Senior Software Engineer",
     organisation: {
-      name: "Fiverr (Freelance)",
-      href: "https://fiverr.com/s/qD06Eey",
+      name: "TechIllusion",
+      href: "https://www.techillusion.com/",
     },
-    date: "2023 - Present",
-    location: "Remote",
-    description: "Level 1 seller with 40+ orders completed and 20+ happy clients from over 10 countries around the world. Specialized in MERN stack development, Next.js, MongoDB, and PostgreSQL. Providing end-to-end solutions from design to deployment for 10+ successful projects.",
+    date: "May 2023 - Present",
+    location: "Lahore, Pakistan",
+    description:
+      "Lead the development of scalable SaaS, AI-powered, enterprise, analytics, and e-commerce applications using React.js, Next.js, Node.js, NestJS, TypeScript, MongoDB, PostgreSQL, and Python. Responsibilities include designing scalable system architecture, building secure REST APIs, AI integrations (OpenAI & Claude), Stripe payment integrations, cloud deployments, performance optimization, mentoring junior developers, code reviews, and Agile software development.",
   },
   {
-    title: "Software Developer",
+    title: "Full Stack Developer (Freelance)",
     organisation: {
-      name: "BitBash",
+      name: "Upwork",
+      href: "https://www.upwork.com/",
+    },
+    date: "May 2024 - Present",
+    location: "Remote",
+    description:
+      "Helping startups and SaaS founders build scalable production-ready applications. Maintaining a 100% Job Success score with a 5.0★ rating while delivering AI applications, SaaS platforms, and Stripe integrations built with Next.js, React, Node.js, MongoDB, and PostgreSQL.",
+  },
+  {
+    title: "Full Stack Developer",
+    organisation: {
+      name: "Fiverr",
+      href: "https://fiverr.com/s/qD06Eey",
+    },
+    date: "March 2023 - Present",
+    location: "Remote",
+    description:
+      "Level Two Seller with 50+ completed projects for startups and businesses across 20+ countries. Built SaaS products, AI applications, dashboards, business systems, e-commerce applications, and enterprise solutions using the MERN stack.",
+  },
+  {
+    title: "Software Engineer",
+    organisation: {
+      name: "BITBASH",
       href: "https://www.bitbash.dev/",
     },
-    date: "August 2024 - October 2024",
-    location: "On-site",
-    description: "Developed full-stack web applications using React.js and Next.js for frontend with FastAPI backend services and MongoDB database integration.",
+    date: "March 2022 - April 2023",
+    location: "Lahore, Pakistan",
+    description:
+      "Developed production web applications using React.js, Next.js, Node.js, Express.js, FastAPI, MongoDB, and PostgreSQL while collaborating with cross-functional teams in Agile environments.",
   },
   {
     title: "Associate Software Engineer",
@@ -27,20 +51,20 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Programmers Force",
       href: "https://pf.com.pk/",
     },
-    date: "June 2024 - August 2024",
-    location: "On-site",
+    date: "March 2021 - February 2022",
+    location: "Lahore, Pakistan",
     description:
-      "Worked as a Full Stack Developer responsible for end-to-end application development. Designed and implemented user interfaces, developed server-side logic, and managed database operations. Collaborated with cross-functional teams to deliver scalable solutions. Participated in code reviews, testing procedures, and maintained high coding standards. Contributed to project planning and technical documentation while ensuring timely delivery of features.",
+      "Worked on frontend and backend development using JavaScript, React.js, Node.js, Express.js, Vue.js, Laravel, MongoDB, and Tailwind CSS while building scalable production applications.",
   },
   {
-    title: "Full Stack Developer Trainee",
+    title: "Software Engineer Intern",
     organisation: {
       name: "Programmers Force",
       href: "https://pf.com.pk/",
     },
-    date: "March 2024 - May 2024",
-    location: "On-site",
+    date: "September 2020 - February 2021",
+    location: "Lahore, Pakistan",
     description:
-      "Joined Programmers Force as a Trainee Web Developer, engaging in immersive training focused on web development. Working full-time on-site in Lahore, Punjab, Pakistan, I'm gaining hands-on experience in various aspects of web development, including front-end and back-end technologies. Excited to contribute to innovative projects and learn from experienced mentors in the dynamic field of software development.",
+      "Completed an intensive engineering training program focused on full-stack development, REST APIs, databases, software engineering principles, Git, and modern web technologies.",
   },
 ];

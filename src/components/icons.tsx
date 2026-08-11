@@ -160,6 +160,134 @@ export function VitePwaIcon({ className }: { className: string }) {
   );
 }
 
+export function ShadcnUiIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 256 256"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="25"
+      strokeLinecap="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <line x1="208" y1="128" x2="128" y2="208" />
+      <line x1="192" y1="40" x2="40" y2="192" />
+    </svg>
+  );
+}
+
+export function DrizzleOrmIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#C5F74F"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <line x1="6.2" y1="5.6" x2="3.2" y2="10.8" />
+      <line x1="13" y1="5.6" x2="10" y2="10.8" />
+      <line x1="19.8" y1="5.6" x2="16.8" y2="10.8" />
+      <line x1="10" y1="13.2" x2="7" y2="18.4" />
+      <line x1="16.8" y1="13.2" x2="13.8" y2="18.4" />
+    </svg>
+  );
+}
+
+export function ClaudeAiIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#D97757"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <line x1="12" y1="3" x2="12" y2="21" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="5.64" y1="5.64" x2="18.36" y2="18.36" />
+      <line x1="18.36" y1="5.64" x2="5.64" y2="18.36" />
+    </svg>
+  );
+}
+
+export function RagIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <path d="M13.5 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" />
+      <path d="M13.5 3l4.5 4.5V10" />
+      <path d="M8 8h3.5M8 12h3M8 16h2.5" />
+      <circle cx="17" cy="15.5" r="3.5" />
+      <line x1="19.6" y1="18.1" x2="22" y2="20.5" />
+    </svg>
+  );
+}
+
+export function RestApiIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <path d="M8 4H7a2 2 0 0 0-2 2v3.5a2 2 0 0 1-2 2.5 2 2 0 0 1 2 2.5V18a2 2 0 0 0 2 2h1" />
+      <path d="M16 4h1a2 2 0 0 1 2 2v3.5a2 2 0 0 0 2 2.5 2 2 0 0 0-2 2.5V18a2 2 0 0 1-2 2h-1" />
+      <circle cx="9" cy="12" r="0.9" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none" />
+      <circle cx="15" cy="12" r="0.9" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function ApiIntegrationIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <path d="M10 13.5a4 4 0 0 0 5.66 0l2.83-2.83a4 4 0 0 0-5.66-5.66l-1.3 1.3" />
+      <path d="M14 10.5a4 4 0 0 0-5.66 0L5.51 13.33a4 4 0 0 0 5.66 5.66l1.3-1.3" />
+    </svg>
+  );
+}
+
 export function MailIcon({ className }: { className?: string }) {
   return (
     <svg

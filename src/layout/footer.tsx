@@ -98,14 +98,16 @@ export default function Footer() {
                 >
                   <GithubIcon className="h-4 w-4" />
                 </a>
-                <a
-                  href={siteMetadata.twitter}
-                  target="_blank"
-                  className="p-2 rounded-lg bg-background hover:bg-accent hover:text-background transition-all duration-200"
-                  aria-label="link to Twitter"
-                >
-                  <TwitterIcon className="h-4 w-4" />
-                </a>
+                {siteMetadata.twitter && (
+                  <a
+                    href={siteMetadata.twitter}
+                    target="_blank"
+                    className="p-2 rounded-lg bg-background hover:bg-accent hover:text-background transition-all duration-200"
+                    aria-label="link to Twitter"
+                  >
+                    <TwitterIcon className="h-4 w-4" />
+                  </a>
+                )}
                 <a
                   href={siteMetadata.linkedin}
                   target="_blank"

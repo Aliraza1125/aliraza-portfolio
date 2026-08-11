@@ -26,23 +26,27 @@ export default function AboutHero() {
           <FadeUp key="description-1" duration={0.6} delay={0.4}>
             <p className="mt-6 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Hi there! I'm Ali Raza, a{" "}
-              <span className="font-semibold text-accent">Software Engineer</span>{" "}
-              and{" "}
-              <span className="font-semibold text-accent">Full Stack Developer</span>{" "}
-              with 4+ years of experience in software development.
-              I specialize in creating modern web applications and digital solutions that 
-              solve real-world problems.
+              <span className="font-semibold text-accent">Senior Software Engineer</span>{" "}
+              with 5+ years of professional experience specializing in{" "}
+              <span className="font-semibold text-accent">Full-Stack JavaScript</span>{" "}
+              development. I build scalable SaaS platforms, AI applications,
+              enterprise software, dashboards, e-commerce platforms, and
+              cross-platform mobile applications.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.6}>
             <p className="mt-4 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I have extensive experience working with the{" "}
-              <span className="font-semibold text-accent">MERN stack</span>{" "}
-              (MongoDB, Express.js, React.js, Node.js) and modern technologies like{" "}
+              My primary expertise includes{" "}
+              <span className="font-semibold text-accent">React.js</span>,{" "}
               <span className="font-semibold text-accent">Next.js</span>,{" "}
-              <span className="font-semibold text-accent">TypeScript</span>, and{" "}
-              <span className="font-semibold text-accent">AI integrations</span>.
-              I'm passionate about building scalable, user-friendly applications.
+              <span className="font-semibold text-accent">Node.js</span>,{" "}
+              <span className="font-semibold text-accent">NestJS</span>,{" "}
+              <span className="font-semibold text-accent">TypeScript</span>,{" "}
+              <span className="font-semibold text-accent">MongoDB</span>,{" "}
+              <span className="font-semibold text-accent">PostgreSQL</span>, and{" "}
+              <span className="font-semibold text-accent">Express.js</span>. I also
+              work with FastAPI, Flask, Flutter, Redis, Docker, AWS, Vercel, GitHub
+              Actions, Stripe, OpenAI, and Claude AI.
             </p>
           </FadeUp>
           <FadeUp key="description-3" duration={0.6} delay={0.8}>

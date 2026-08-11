@@ -8,14 +8,14 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Ali Raza - Software Developer Portfolio"
-        description="Explore a collection of projects by Ali Raza, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Ali Raza - Senior Software Engineer Portfolio"
+        description="Explore a collection of projects by Ali Raza, a Senior Software Engineer. From SaaS platforms and AI applications to dashboards and e-commerce solutions, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Ali Raza - Software Developer",
+          title: "Discover Projects by Ali Raza - Senior Software Engineer",
           description:
-            "Explore a showcase of projects crafted by Ali Raza, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Ali Raza, a Senior Software Engineer. SaaS platforms, AI applications, enterprise software, and cross-platform mobile apps.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects, Ali Raza Portfolio, Senior Software Engineer, Full Stack Developer, React, Next.js, Node.js, NestJS, TypeScript, SaaS, AI Applications, E-commerce, Dashboards, Flutter",
           },
         ]}
       />

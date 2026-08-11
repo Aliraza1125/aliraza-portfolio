@@ -48,34 +48,29 @@ export default function LandingHero() {
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl text-justify">
               
-                Hello! I'm a Senior Software Engineer with 5+ years of professional
-                experience specializing in{" "}
-                <span className="font-semibold text-accent">Full-Stack JavaScript</span>{" "}
-                development. My core expertise spans{" "}
+                I'm a Senior Software Engineer with 5+ years of experience building
+                scalable, production-ready software across{" "}
+                <span className="font-semibold text-accent">SaaS</span>,{" "}
+                <span className="font-semibold text-accent">AI</span>-powered,
+                enterprise, EdTech, e-commerce, and business applications.
+                <br />
+                My core expertise includes{" "}
                 <span className="font-semibold text-accent">React.js</span>,{" "}
                 <span className="font-semibold text-accent">Next.js</span>,{" "}
                 <span className="font-semibold text-accent">Node.js</span>,{" "}
-                <span className="font-semibold text-accent">NestJS</span>,{" "}
                 <span className="font-semibold text-accent">TypeScript</span>,{" "}
-                <span className="font-semibold text-accent">MongoDB</span>,{" "}
-                <span className="font-semibold text-accent">PostgreSQL</span>, and{" "}
-                <span className="font-semibold text-accent">Express.js</span>.
+                <span className="font-semibold text-accent">Python</span>,{" "}
+                <span className="font-semibold text-accent">MongoDB</span>, and{" "}
+                <span className="font-semibold text-accent">PostgreSQL</span>. I build
+                SaaS platforms, AI-powered applications, scalable APIs, data-driven
+                systems, and cloud-based applications.
                 <br />
                 I also work with{" "}
-                <span className="font-semibold text-accent">FastAPI</span>,{" "}
-                <span className="font-semibold text-accent">Flask</span>,{" "}
-                <span className="font-semibold text-accent">Flutter</span>,{" "}
-                <span className="font-semibold text-accent">Redis</span>,{" "}
-                <span className="font-semibold text-accent">Docker</span>,{" "}
                 <span className="font-semibold text-accent">AWS</span>,{" "}
-                <span className="font-semibold text-accent">Vercel</span>,{" "}
-                <span className="font-semibold text-accent">GitHub Actions</span>,{" "}
-                <span className="font-semibold text-accent">Stripe</span>,{" "}
-                <span className="font-semibold text-accent">OpenAI</span>, and{" "}
-                <span className="font-semibold text-accent">Claude AI</span> to build
-                scalable SaaS platforms, AI applications, enterprise software,
-                dashboards, e-commerce platforms, and cross-platform mobile
-                applications.
+                <span className="font-semibold text-accent">Docker</span>, REST APIs,
+                data transformation, validation, migration workflows, database
+                optimization, and third-party integrations to deliver reliable
+                software designed for long-term growth.
               </div>
             </FadeUp>
           </AnimatePresence>

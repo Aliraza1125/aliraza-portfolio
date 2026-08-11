@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Ali Raza | Senior Software Engineer"
-        description="Explore the professional portfolio of Ali Raza, a Senior Software Engineer with 5+ years of experience in Full-Stack JavaScript development. Discover SaaS platforms, AI applications, and enterprise software built with React.js, Next.js, Node.js, NestJS, and TypeScript."
+        title="Ali Raza | Senior Software Engineer | Full-Stack & SaaS"
+        description="Ali Raza is a Senior Software Engineer specializing in full-stack SaaS development, AI integrations, scalable web applications, data workflows, and cloud infrastructure using React, Next.js, Node.js, TypeScript, Python, MongoDB, PostgreSQL, and AWS."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Ali Raza - Senior Software Engineer",
+          title: "Ali Raza | Senior Software Engineer | Full-Stack & SaaS",
           description:
-            "Dive into the world of full-stack development with Ali Raza, a Senior Software Engineer with 5+ years of experience building scalable SaaS platforms, AI applications, dashboards, and e-commerce solutions.",
+            "Senior Software Engineer specializing in full-stack SaaS development, AI integrations, scalable web applications, data workflows, and cloud infrastructure using React, Next.js, Node.js, TypeScript, Python, MongoDB, PostgreSQL, and AWS.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -37,7 +37,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "Senior Software Engineer, Full Stack Developer, MERN Stack Developer, React Developer, Next.js Developer, Node.js Developer, NestJS, TypeScript, MongoDB, PostgreSQL, SaaS Development, AI Integration, OpenAI, Claude AI, Stripe, Portfolio",
+              "Senior Software Engineer, Full Stack Developer, Full Stack Engineer, MERN Stack Developer, React Developer, Next.js Developer, Node.js Developer, TypeScript Developer, Python Developer, SaaS Development, AI Integration, Data Engineering, Data Migration, ETL, Data Transformation, Data Validation, MongoDB, PostgreSQL, AWS, REST API, Cloud Development",
           },
         ]}
       />

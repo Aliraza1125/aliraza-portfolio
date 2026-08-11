@@ -288,6 +288,99 @@ export function ApiIntegrationIcon({ className }: { className?: string }) {
   );
 }
 
+export function DataMigrationIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <ellipse cx="5.5" cy="5" rx="3.5" ry="1.8" />
+      <path d="M2 5v6c0 1 1.57 1.8 3.5 1.8S9 12 9 11V5" />
+      <ellipse cx="18.5" cy="11" rx="3.5" ry="1.8" />
+      <path d="M15 11v6c0 1 1.57 1.8 3.5 1.8S22 18 22 17v-6" />
+      <path d="M9.5 8.2h4" />
+      <path d="M12 6.7l1.8 1.5-1.8 1.5" />
+    </svg>
+  );
+}
+
+export function EtlWorkflowIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <rect x="2" y="4" width="5" height="4.5" rx="1" />
+      <rect x="9.5" y="9.8" width="5" height="4.5" rx="1" />
+      <rect x="17" y="15.5" width="5" height="4.5" rx="1" />
+      <path d="M7 6.25h2.5a2 2 0 0 1 2 2v1.55" />
+      <path d="M14.5 12.05H17a2 2 0 0 1 2 2v1.45" />
+    </svg>
+  );
+}
+
+export function DataTransformIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <path d="M3 8h13" />
+      <path d="M13.5 4.8 16.8 8l-3.3 3.2" />
+      <path d="M21 16H8" />
+      <path d="M10.5 12.8 7.2 16l3.3 3.2" />
+    </svg>
+  );
+}
+
+export function DataReconciliationIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className ?? ""}
+    >
+      <rect x="2.5" y="3.5" width="7" height="17" rx="1.5" />
+      <rect x="14.5" y="3.5" width="7" height="17" rx="1.5" />
+      <path d="M9.5 9.5h5" />
+      <path d="M9.5 14.5h5" />
+      <path d="M11 8.2 12.6 9.5 11 10.8" />
+      <path d="M13 13.2 11.4 14.5 13 15.8" />
+    </svg>
+  );
+}
+
 export function MailIcon({ className }: { className?: string }) {
   return (
     <svg

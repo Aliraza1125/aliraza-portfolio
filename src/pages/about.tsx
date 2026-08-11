@@ -11,13 +11,13 @@ export default function About() {
     <>
       <NextSeo
         title="About Ali Raza | Senior Software Engineer"
-        description="Learn more about Ali Raza, a Senior Software Engineer with 5+ years of experience in Full-Stack JavaScript development. Discover the journey, skills, and experience behind scalable SaaS, AI, and enterprise applications."
+        description="Learn more about Ali Raza, a Senior Software Engineer with 5+ years of experience building scalable SaaS platforms, AI-powered applications, enterprise systems, data-driven applications, and cloud-based solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Ali Raza - Senior Software Engineer",
+          title: "About Ali Raza | Senior Software Engineer",
           description:
-            "Dive into the story of Ali Raza, a Senior Software Engineer. Uncover the experience, skills, and engineering practices behind scalable SaaS platforms, AI applications, and enterprise software.",
+            "Senior Software Engineer specializing in full-stack development, SaaS, AI integrations, data workflows, scalable APIs, and cloud infrastructure.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -34,7 +34,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "Senior Software Engineer, Full Stack Developer, React Developer, Next.js, Node.js, NestJS, TypeScript, MongoDB, PostgreSQL, SaaS, AI Applications, Professional Journey, Skills, Experience, Education",
+              "Senior Software Engineer, Full Stack Developer, React Developer, Next.js Developer, Node.js Developer, TypeScript, Python, MongoDB, PostgreSQL, AWS, SaaS Development, AI Integration, Data Engineering, Data Migration, ETL, REST APIs, Cloud Development",
           },
         ]}
       />

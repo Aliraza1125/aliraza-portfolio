@@ -1,12 +1,12 @@
 export const siteMetadata = {
-  title: "Ali Raza portfolio",
+  title: "Ali Raza | Senior Software Engineer",
   author: "Ali Raza",
   headerTitle: "Ali Raza",
   description:
-    "Senior Software Engineer specializing in Full-Stack JavaScript — React.js, Next.js, Node.js, NestJS, TypeScript, MongoDB and PostgreSQL",
+    "Senior Software Engineer specializing in full-stack SaaS development, AI integrations, scalable web applications, data workflows, and cloud infrastructure using React, Next.js, Node.js, TypeScript, Python, MongoDB, PostgreSQL, and AWS.",
   language: "en-us",
   theme: "light",
-  siteName: "aliraza-dev-portfolio.vercel.app",
+  siteName: "Ali Raza - Senior Software Engineer",
   siteUrl: "https://aliraza-dev-portfolio.vercel.app/",
   siteRepo: "https://github.com/Aliraza1125",
   siteLogo: "/favicon.ico",

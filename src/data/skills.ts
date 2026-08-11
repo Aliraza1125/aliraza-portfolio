@@ -13,6 +13,7 @@ import {
   SiRedis,
   SiSupabase,
   SiFirebase,
+  SiMicrosoftexcel,
   SiOpenai,
   SiChatbot,
   SiStripe,
@@ -43,6 +44,11 @@ import {
   RagIcon,
   RestApiIcon,
   ApiIntegrationIcon,
+  DataMigrationIcon,
+  EtlWorkflowIcon,
+  DataTransformIcon,
+  DataReconciliationIcon,
+  CheckIcon,
 } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
@@ -126,7 +132,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Backend",
+    sectionName: "Backend & APIs",
     skills: [
       {
         name: "Node.js",
@@ -179,7 +185,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Databases",
+    sectionName: "Databases & Data",
     skills: [
       {
         name: "MongoDB",
@@ -204,6 +210,34 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Firebase Firestore",
         icon: SiFirebase,
+      },
+      {
+        name: "MongoDB Aggregation",
+        icon: MongoDBSvg,
+      },
+      {
+        name: "Data Migration",
+        icon: DataMigrationIcon,
+      },
+      {
+        name: "ETL Workflows",
+        icon: EtlWorkflowIcon,
+      },
+      {
+        name: "Data Transformation",
+        icon: DataTransformIcon,
+      },
+      {
+        name: "Data Validation",
+        icon: CheckIcon,
+      },
+      {
+        name: "Data Reconciliation",
+        icon: DataReconciliationIcon,
+      },
+      {
+        name: "CSV / Excel Processing",
+        icon: SiMicrosoftexcel,
       },
     ],
   },
@@ -245,15 +279,15 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "DevOps & Cloud",
+    sectionName: "Cloud & DevOps",
     skills: [
-      {
-        name: "Docker",
-        icon: DockerSvg,
-      },
       {
         name: "AWS",
         icon: AwsSvg,
+      },
+      {
+        name: "Docker",
+        icon: DockerSvg,
       },
       {
         name: "Vercel",
